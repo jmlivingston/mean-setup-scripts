@@ -2,21 +2,19 @@
 
 The following scripts can be used to setup a MEAN environment using Brew on Apple OSX. MONGO, ExpressJS, AngularJS, and Node are installed, along with Yeoman, Bower, Grunt, and Heroku Toolbelt.
 
-* Use the scripts with the .sh extension.
-* You may need to run set execute permissions using the following:
-  * Install
+* Install
 
 ````
 sudo chmod 700 mean-install.sh
 ```
 
-  * Uninstall
+* Uninstall
 
 ```
 sudo chmod 700 mean-uninstall.sh
 ```
 
-  * Check Versions
+* Check Versions
 
 ```
 sudo chmod 700 mean-versions.sh
