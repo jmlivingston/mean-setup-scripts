@@ -1,8 +1,3 @@
-echo "brew cleanup - you may need to click enter"
-rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
-wait
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)" 
-wait
 brew install mongodb
 wait
 brew install git
@@ -11,17 +6,17 @@ brew install heroku-toolbelt
 wait
 brew install node
 wait
-npm install -g grunt-cli
+sudo brew postinstall node
 wait
-npm install -g bower
+sudo npm install -g grunt-cli
 wait
-npm install -g yo
+sudo npm install -g bower
 wait
-echo "brew version"
-brew --version
+sudo npm install -g yo
+wait
 echo "mongo"
 mongo --version
-echo "mondod"
+echo "mongod"
 mongod --version
 echo "git"
 git --version

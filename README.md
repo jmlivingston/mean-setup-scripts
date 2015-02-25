@@ -5,13 +5,15 @@ The following scripts can be used to setup a MEAN environment using Brew on Appl
 * Install
 
 ````
-sudo chmod 700 mean-install.sh
+sh brew-install.sh
+sh mean-install.sh
 ```
 
 * Uninstall
 
 ```
-sudo chmod 700 mean-uninstall.sh
+sh mean-uninstall.sh
+sh brew-uninstall.sh
 ```
 
 * Check Versions
