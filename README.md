@@ -19,7 +19,7 @@ sh brew-uninstall.sh
 * Check Versions
 
 ```
-sudo chmod 700 mean-versions.sh
+sh mean-versions.sh
 ```
 
 For detailed manual instructions for both Mac and Windows, check out my blog post: [MEAN Stack Tutorial - Part 1 - Setting up a development environment](http://johnlivingston.io/blog/mean-stack-1)
